@@ -48,6 +48,18 @@
         background: linear-gradient(180deg, #a4bc46 0%, #85a019 100%);
         color: white;
       }
+      .Prayer {
+        color: #ff4240;
+      }
+      .Experienced {
+        color: #49d293;
+      }
+      .Senior {
+        color: #ffb546;
+      }
+      .Training {
+        color: #4c8df1;
+      }
     </style>
   </head>
   <body>
@@ -169,15 +181,17 @@
         </div>
       </section>
       <!-- Professional Hockeys Club section -->
-      <section class="text-center pt-20">
+      <section class="text-center pt-20 pb-10">
         <hr class="border-dotted pb-4" />
-        <h1 class="">Professional Hockeys Club</h1>
+        <h1 class="font-semibold text-xl">Professional Hockeys Club</h1>
         <p class="pb-4">
           Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
           placerat dolor. Purus urna in sit nullam proin.
         </p>
         <hr class="border-dotted pt-4" />
-        <div class="flex">
+        <div
+          class="grid lg:grid-cols-4 grid-cols-1 gap-7 items-center justify-center mt-5"
+        >
           <div>
             <div
               class="radial-progress text-primary"
@@ -186,44 +200,48 @@
             >
               70%
             </div>
-            <h2>Prayer Facility</h2>
+            <h2 class="py-4 font-semibold text-xl">Prayer Facility</h2>
             <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
           </div>
-           <div>
+          <div>
             <div
-              class="radial-progress text-primary"
-              style="--value: 70"
+              class="radial-progress Experienced"
+              style="--value: 90"
               role="progressbar"
             >
-              70%
+              90%
             </div>
-            <h2>Prayer Facility</h2>
+            <h2 class="py-4 font-semibold text-xl">Experienced Coach</h2>
             <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
           </div>
 
-           <div>
+          <div>
             <div
-              class="radial-progress text-primary"
-              style="--value: 70"
+              class="radial-progress Senior"
+              style="--value: 85"
               role="progressbar"
             >
-              70%
+              85%
             </div>
-            <h2>Prayer Facility</h2>
+            <h2 class="py-4 font-semibold text-xl">Senior Player</h2>
             <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
           </div>
-           <div>
+          <div>
             <div
-              class="radial-progress text-primary"
-              style="--value: 70"
+              class="radial-progress Training"
+              style="--value: 90"
               role="progressbar"
             >
-              70%
+              90%
             </div>
-            <h2>Prayer Facility</h2>
+            <h2 class="py-4 font-semibold text-xl">Training Ground</h2>
             <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
           </div>
         </div>
+      </section>
+      <!-- Program Sections start -->
+      <section>
+        <hr class="border-dotted py-8" />
       </section>
     </main>
   </body>
